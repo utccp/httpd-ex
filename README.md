@@ -8,7 +8,7 @@ The application serves a single static html page via httpd.
 To build and run the application:
 
 ```
-$ s2i build https://github.com/sclorg/httpd-ex centos/httpd-24-centos7 myhttpdimage
+$ s2i build https://github.com/utccp/httpd-ex centos/httpd-24-centos7 myhttpdimage
 $ docker run -p 8080:8080 myhttpdimage
 $ # browse to http://localhost:8080
 ```
@@ -16,7 +16,7 @@ $ # browse to http://localhost:8080
 You can also build and deploy the application on utccp, assuming you have a
 working `oc` command line environment connected to your cluster already:
 
-`$ oc new-app centos/httpd-24-centos7~https://github.com/sclorg/httpd-ex`
+`$ oc new-app centos/httpd-24-centos7~https://github.com/utccp/httpd-ex`
 
 You can also deploy the sample template for the application:
 
