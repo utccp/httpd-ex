@@ -20,4 +20,4 @@ working `oc` command line environment connected to your cluster already:
 
 You can also deploy the sample template for the application:
 
-`$ oc new-app -f https://raw.githubusercontent.com/utccp/httpd-ex/master/utccp/templates/httpd.json`
+`$ oc new-app -f https://raw.githubusercontent.com/utccp/httpd-ex/master/openshift/templates/httpd.json`
